@@ -31,7 +31,7 @@ public class userDeck
 			userDeck.add(new PokemonCard(10, "Elekid", "Thunder Spear"));
 			userDeck.add(new PokemonCard(10, "Ralts", "quick blow"));
 			userDeck.add(new PokemonCard(40, "Makuhita", "arm thrust"));
-			userDeck.add(new PokemonCard(0, "", ""));
+			userDeck.add(new PokemonCard(20, "Gloom", "acid"));
 			
 			
 			

@@ -1,11 +1,17 @@
 package pokemonfinal;
-
+import java.util.ArrayList;
+import java.util.Scanner;
 public class PokemonRunner1
 	{
-
+		public static int playerHand;
+		public static int compHand;
+		public static int drawCard;
+		
 		public static void main(String[] args)
 			{
-				// TODO Auto-generated method stub
+				UserDeck.fillUserDeck();
+				CompDeck.fillCompDeck();
+				
 
 			}
 
