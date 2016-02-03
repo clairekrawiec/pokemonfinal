@@ -27,6 +27,12 @@ public class userDeck
 			userDeck.add(new PokemonCard(10, "wurmple", "needling sting"));
 			userDeck.add(new PokemonCard(10, "Barboach", "mud spit"));
 			userDeck.add(new PokemonCard(10, "Charmander", "Scratch"));
+			userDeck.add(new PokemonCard(10, "Oddish", "stun spore"));
+			userDeck.add(new PokemonCard(10, "Elekid", "Thunder Spear"));
+			userDeck.add(new PokemonCard(10, "Ralts", "quick blow"));
+			userDeck.add(new PokemonCard(40, "Makuhita", "arm thrust"));
+			userDeck.add(new PokemonCard(0, "", ""));
+			
 			
 			
 		}
