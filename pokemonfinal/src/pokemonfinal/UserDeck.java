@@ -1,7 +1,8 @@
 package pokemonfinal;
 import java.util.ArrayList;
+import java.util.Collections;
 
-public class userDeck
+public class UserDeck
 	{
 		public static ArrayList <PokemonCard> userDeck = new ArrayList <PokemonCard>();
 		public static int newCard = 0;
@@ -36,5 +37,17 @@ public class userDeck
 			
 			
 		}
+		public static void shuffleUserDeck()
+			{
+				Collections.shuffle(userDeck);
+			}
 		
+		public static ArrayList<PokemonCard> getUserDeck()
+			{
+				return userDeck;
+			}
+		public static void setUserDeck(ArrayList<PokemonCard> ud)
+			{
+				UserDeck.userDeck = ud;
+			}
 	}

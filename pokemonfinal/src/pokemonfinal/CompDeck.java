@@ -1,10 +1,11 @@
 package pokemonfinal;
 import java.util.ArrayList;
-public class compDeck
+import java.util.Collections;
+public class CompDeck
 	{
 		public static ArrayList <PokemonCard> compDeck = new ArrayList <PokemonCard>();
 		public static int newCard = 0;
-		public static void fillUserDeck()
+		public static void fillCompDeck()
 		{
 			compDeck.add(new PokemonCard(10, "Zigzagoon", "double stab"));
 			compDeck.add(new PokemonCard(10, "taillow", "skill dive"));
@@ -33,4 +34,17 @@ public class compDeck
 			compDeck.add(new PokemonCard(10, "Mankey", "Rage"));
 			
 		}
+		public static void shuffleCompDeck()
+			{
+				Collections.shuffle(compDeck);
+			}
+		
+		public static ArrayList<PokemonCard> getCompDeck()
+			{
+				return compDeck;
+			}
+		public static void setCompDeck(ArrayList<PokemonCard> cd)
+			{
+				CompDeck.compDeck = cd;
+			}
 	}
